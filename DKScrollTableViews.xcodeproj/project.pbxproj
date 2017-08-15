@@ -13,6 +13,7 @@
 		E3C623051F3D9470003F2D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C623031F3D9470003F2D03 /* Main.storyboard */; };
 		E3C623071F3D9470003F2D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C623061F3D9470003F2D03 /* Assets.xcassets */; };
 		E3C6230A1F3D9470003F2D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C623081F3D9470003F2D03 /* LaunchScreen.storyboard */; };
+		E3C623141F3D94D5003F2D03 /* DKScrollViews.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C623131F3D94D5003F2D03 /* DKScrollViews.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E3C623061F3D9470003F2D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C623091F3D9470003F2D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3C6230B1F3D9470003F2D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C623121F3D94D5003F2D03 /* DKScrollViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKScrollViews.h; sourceTree = "<group>"; };
+		E3C623131F3D94D5003F2D03 /* DKScrollViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKScrollViews.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		E3C622F91F3D9470003F2D03 /* DKScrollTableViews */ = {
 			isa = PBXGroup;
 			children = (
+				E3C623111F3D94BB003F2D03 /* Classes */,
 				E3C622FD1F3D9470003F2D03 /* AppDelegate.h */,
 				E3C622FE1F3D9470003F2D03 /* AppDelegate.m */,
 				E3C623001F3D9470003F2D03 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				E3C622FB1F3D9470003F2D03 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3C623111F3D94BB003F2D03 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3C623121F3D94D5003F2D03 /* DKScrollViews.h */,
+				E3C623131F3D94D5003F2D03 /* DKScrollViews.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				E3C623021F3D9470003F2D03 /* ViewController.m in Sources */,
 				E3C622FF1F3D9470003F2D03 /* AppDelegate.m in Sources */,
 				E3C622FC1F3D9470003F2D03 /* main.m in Sources */,
+				E3C623141F3D94D5003F2D03 /* DKScrollViews.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +328,7 @@
 				E3C623101F3D9470003F2D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
